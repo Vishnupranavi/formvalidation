@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcomepage</title>
+    </head>
+    <body>
+        <div id="box"></div>
+        <script>
+            var x = localstorage.getItem("unname");
+            document.getElementById("box").textContent = 'Hi, '+x;
+        </script>
+    </body>
+</html>
